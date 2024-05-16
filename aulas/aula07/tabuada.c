@@ -8,7 +8,7 @@ int main() {
 
   if (deu_certo && numero > 0 && numero < 11) {
     printf("A tabuada de %i\n", numero);
-    for (int i=1; i>=1; i++) {
+    for (int i=1; i<=10; i++) {
       printf("%i x %i = %i\n", i, numero, i * numero);
     }
     printf("A tabuada invertida de %i\n", numero);
